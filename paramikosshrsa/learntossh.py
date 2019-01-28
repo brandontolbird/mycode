@@ -49,6 +49,7 @@ for host_user_pair in host_user_list:
     total_response += "Ran '{}' command on host '{}' with user '{}'." \
     " It returned:\n{}".format(x, *host_user_pair, response)
     print(response)
+  sshsession.close()
 
 
 with open("results.log","w") as out_file:

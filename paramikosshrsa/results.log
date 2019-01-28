@@ -1,2 +1,8 @@
 Ran 'uname -a' command on host '10.10.2.3' with user 'bender'. It returned:
 Linux bender 4.4.0-119-generic #143-Ubuntu SMP Mon Apr 2 16:08:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+Ran 'pwd' command on host '10.10.2.3' with user 'bender'. It returned:
+/home/bender
+Ran 'uname -a' command on host '10.10.2.4' with user 'fry'. It returned:
+Linux fry 4.4.0-119-generic #143-Ubuntu SMP Mon Apr 2 16:08:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+Ran 'pwd' command on host '10.10.2.4' with user 'fry'. It returned:
+/home/fry
