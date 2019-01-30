@@ -7,7 +7,7 @@ from pprint import pprint as pp # part of the standard libray
 
 ## define some constants
 NASAAPI = 'https://api.nasa.gov/planetary/apod?' # this is our api to call
-MYKEY = 'api_key=DEMO_KEY' ## this is our api key
+MYKEY = 'api_key=yJ0JEFG0aP47UlJBw5s5V6iQ8YHnVzyPNbVEOS1Z' ## this is our api key
 
 ## pretty print json
 def main():
